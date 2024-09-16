@@ -7,7 +7,7 @@ const hasSimbols = /[!@#$%^&*()_+\[\]{}|;:,.<>?]/;
 function generarContrasena() {
     const num = parseInt(limitInput.value);
 
-    if (limitInput.value == '') {
+    if (limitInput.value == '' || (num == 0 || num < 0)) {
         alert("Debes introducir un número antes de generar una contraseña.");
     } else {
         let newPassword = '';
