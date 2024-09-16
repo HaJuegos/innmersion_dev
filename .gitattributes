@@ -1,0 +1,11 @@
+*.json linguist-detectable=true
+**/*.json linguist-detectable=true
+
+*.js linguist-detectable=true
+**/*.js linguist-detectable=true
+
+*.sql linguist-detectable=true
+**/*.sql linguist-detectable=true
+
+*.mwb linguist-detectable=true
+**/*.mwb linguist-detectable=true
